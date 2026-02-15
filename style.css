@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    background-color: #dbdbdb;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.features {
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.features li {
+    margin: 8px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    background: #4e73df;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: white;
+    color: #4e73df;
+    
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #1cc88a;
+    text-align: center;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+

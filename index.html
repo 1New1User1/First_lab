@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./script.js">
+    <title>Регистрация участников мероприятий</title>
+</head>
+<body>
+
+
+<div class="container">
+    <h2>Присоединяйтесь к нашему событию</h2>
+
+    <div class="info">
+        Заполните форму ниже, чтобы зарегистрироваться. После отправки вы получите подтверждение участия.
+    </div>
+
+    <ul class="features">
+        <li>✔ Быстрая регистрация</li>
+        <li>✔ Подтверждение на email</li>
+        <li>✔ Разные типы билетов</li>
+    </ul>
+
+    <form onsubmit="register(event)">
+        <input type="text" class="name" placeholder="Ваше имя" required>
+        <input type="email" class="email" placeholder="Email" required>
+
+        <select id="ticket">
+            <option value="Стандарт">Стандарт</option>
+            <option value="VIP">VIP</option>
+            
+        </select>
+
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+
+    <div class="result"></div>
+</div>
+
+<footer>
+    © 2026 Организация мероприятий
+</footer>
+
+
+</body>
+</html>
+</body>
+</html>
